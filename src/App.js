@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Error from "./pages/Error";
 
-function App() {
+const App = () => {
     return (
         <div className="App">
             <Header />
@@ -24,6 +24,6 @@ function App() {
             <Footer />
         </div>
     );
-}
+};
 
 export default App;
