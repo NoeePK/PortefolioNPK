@@ -4,34 +4,34 @@
         "description": "",
         "date": { "beginDate": "06.2022", "endDate": "02.2023" },
         "where": "OpenClassrooms",
-        "link": ""
+        "link": "https://openclassrooms.com/fr/"
     },
     {
         "title": "Formation Lecteur-correcteur",
         "description": "",
         "date": { "beginDate": "10.2022", "endDate": "04.2023" },
         "where": "Ecole Française de Lecteur-Correcteur",
-        "link": ""
+        "link": "https://eflc.fr/"
     },
     {
         "title": "Certificat 'Se mettre dans la peau d'un professionnel'",
         "description": "Parcours de formation pour 'présenter un projet professionnel inspiré de ses Passions et de ses Compétences Humaines'",
         "date": { "beginDate": "04.2022", "endDate": "04.2022" },
         "where": "Réseau Etincelle",
-        "link": ""
+        "link": "https://reseau-etincelle.com/"
     },
     {
         "title": "Langues Etrangères Appliquées",
         "description": "",
         "date": { "beginDate": "09.2015", "endDate": "02.2018" },
         "where": "Université de Strasbourg",
-        "link": ""
+        "link": "https://www.unistra.fr/"
     },
     {
         "title": "Baccalauréat série littéraire",
         "description": "",
         "date": { "beginDate": "09.2012", "endDate": "06.2015" },
         "where": "Lycée Alfred Kastler",
-        "link": ""
+        "link": "https://lyc-kastler-guebwiller.monbureaunumerique.fr/"
     }
 ]
