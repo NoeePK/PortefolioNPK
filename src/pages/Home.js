@@ -42,7 +42,9 @@ const Home = () => {
                     </ul>
                 </div>
             </article>
-            <Thumb />
+            <div className="thumbs-wrap">
+                <Thumb />
+            </div>
         </section>
     );
 };
