@@ -2,6 +2,7 @@ import React from "react";
 
 // Importer les composants
 import Thumb from "../components/Thumb";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home = () => {
     return (
