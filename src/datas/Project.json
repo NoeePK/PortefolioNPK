@@ -1,0 +1,57 @@
+[
+    {
+        "id": "k973j1b8z",
+        "title": "ohmyfood",
+        "cover": "",
+        "pictures": "",
+        "goal": "Dynamisez une page web avec des animations CSS",
+        "description": "",
+        "tags": ["Frontend", "Mobile-first", "Animations CSS"],
+        "tools": ["HTML", "CSS", "Sass"],
+        "link": "https://github.com/NoeePK/Ohmyfood"
+    },
+    {
+        "id": "khp79i347",
+        "title": "Kanap",
+        "cover": "",
+        "pictures": "",
+        "goal": "Construisez un site e-commerce en JavaScript",
+        "description": "",
+        "tags": ["Backend", "Contenu dynamique", "Gestion de panier"],
+        "tools": ["Javascript", "API", "localStorage"],
+        "link": "https://github.com/NoeePK/Kanap"
+    },
+    {
+        "id": "38g18jjk1",
+        "title": "Piiquante",
+        "cover": "",
+        "pictures": "",
+        "goal": "Construisez une API sécurisée",
+        "description": "",
+        "tags": ["Backend", "API REST", "Sécurité", "OWASP"],
+        "tools": ["Javascript", "Node.js", "Express", "MongoDB"],
+        "link": "https://github.com/NoeePK/PIIQUANTE"
+    },
+    {
+        "id": "74c01mo9p",
+        "title": "Kasa",
+        "cover": "",
+        "pictures": "",
+        "goal": "Créez une application web avec React",
+        "description": "",
+        "tags": ["Frontend", "Single Page Application"],
+        "tools": ["React", "React-router", "Node.js"],
+        "link": "https://github.com/NoeePK/Kasa"
+    },
+    {
+        "id": "b1681qrj7",
+        "title": "Groupomania",
+        "cover": "",
+        "pictures": "",
+        "goal": "Créez un réseau social d’entreprise",
+        "description": "",
+        "tags": ["", ""],
+        "tools": ["React", "React-router", "Node.js", "MongoDB", "Sass"],
+        "link": "https://github.com/NoeePK/Groupomania"
+    }
+]
