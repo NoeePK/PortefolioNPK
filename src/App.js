@@ -7,6 +7,8 @@ import Footer from "./components/Footer";
 
 // Différentes pages
 import Home from "./pages/Home";
+import Project from "./pages/Project";
+import CV from "./pages/CV";
 import Error from "./pages/Error";
 
 const App = () => {
@@ -16,8 +18,8 @@ const App = () => {
             <main>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/CV" element={<CV />} />
                     <Route path="/Project/:id" element={<Project />} />
+                    <Route path="/CV" element={<CV />} />
                     <Route path="*" element={<Error />} />
                 </Routes>
             </main>
