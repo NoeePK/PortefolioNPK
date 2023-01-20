@@ -1,10 +1,8 @@
 // Description du projet
 // Comment j'ai surmonté des problèmes
-// Lien vers repo github
-// 	Créer app conversion mesure
 
 import React from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import projects from "../datas/project.json";
 
 import Error from "../pages/Error";
@@ -22,15 +20,17 @@ const Project = () => {
             <section className="carrousel-wrap" key={project.id}>
                 <h1>{project.title}</h1>
                 <h2>{project.goal}</h2>
-                <Carrousel source={project.pictures}
-                slides={project.pictures.length} />
+                <Carrousel
+                    source={project.pictures}
+                    slides={project.pictures.length}
+                />
             </section>
             <section className="language-wrap">
                 <Tags name="tools-list" tags={project.tools} />
                 <Tags name="tags-list" tags={project.tags} />
             </section>
             <section project-description>{project.description}</section>
-            <Link to={project.link}>Voir sur GitHub</Link>
+            <a href={project.link}>Voir sur GitHub</a>
         </main>
     );
 };
