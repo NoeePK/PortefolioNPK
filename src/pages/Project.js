@@ -9,7 +9,6 @@ import projects from "../datas/project.json";
 
 import Error from "../pages/Error";
 import Carrousel from "../components/Carrousel";
-import Tools from "../components/Tools";
 import Tags from "../components/Tags";
 
 const Project = () => {
@@ -23,26 +22,15 @@ const Project = () => {
             <section className="carrousel-wrap" key={project.id}>
                 <h1>{project.title}</h1>
                 <h2>{project.goal}</h2>
-                <Carrousel source={project.pictures} />
+                <Carrousel source={project.pictures}
+                slides={project.pictures.length} />
             </section>
             <section className="language-wrap">
-                <Tools
-                    list-item=<ul>
-                        {project.tools.map((tool, index) => (
-                            <li key={index}>{tool}</li>
-                        ))}
-                    </ul>
-                />
-                <Tags
-                    list-item=<ul>
-                        {project.tags.map((tag, index) => (
-                            <li key={index}>{tag}</li>
-                        ))}
-                    </ul>
-                />
+                <Tags name="tools-list" tags={project.tools} />
+                <Tags name="tags-list" tags={project.tags} />
             </section>
             <section project-description>{project.description}</section>
-            
+            <Link to={project.link}>Voir sur GitHub</Link>
         </main>
     );
 };
