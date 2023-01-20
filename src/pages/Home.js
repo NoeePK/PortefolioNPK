@@ -1,29 +1,48 @@
 import React from "react";
 
 // Importer les composants
-import Carrousel from "../components/Carrousel"
+import Thumb from "../components/Thumb";
 
 const Home = () => {
     return (
         <section className="main-wrap">
             <h1>Hullo, je m'appelle Noée Pisano</h1>
-            <article className="intro-wrap">
-                <div>{/* Me présenter */}</div>
-                {/* Lien quelque part vers CV */}
-                <div>
-                    {/* Manifeste sur ma vision du code/développement, ce que j'aime et recherche */}
-                </div>
-                <div>
-                    {/* Liste des langages avec icon et nom en dessous */}
+            <article className="bio-wrap">
+                <h2>Bio</h2>
+                <p>
+                    Manifeste sur ma vision du code/développement, ce que j'aime
+                    et recherche
+                </p>
+                <div className="tools-wrap">
+                    <ul className="tools-list">
+                        <li>
+                            <FontAwesomeIcon icon="fa-brands fa-square-js" />
+                            <h3>Javascript</h3>
+                        </li>
+                        <li>
+                            <FontAwesomeIcon icon="fa-brands fa-react" />
+                            <h3>React</h3>
+                        </li>
+                        <li>
+                            <FontAwesomeIcon icon="fa-brands fa-node-js" />
+                            <h3>Node.js</h3>
+                        </li>
+                        <li>
+                            <FontAwesomeIcon icon="fa-brands fa-sass" />
+                            <h3>Sass</h3>
+                        </li>
+                        <li>
+                            <FontAwesomeIcon icon="fa-brands fa-html5" />
+                            <h3>HTML</h3>
+                        </li>
+                        <li>
+                            <FontAwesomeIcon icon="fa-brands fa-css3-alt" />
+                            <h3>CSS</h3>
+                        </li>
+                    </ul>
                 </div>
             </article>
-            <Carrousel />
-            <article>
-                <div>{/* Liens linkedin et github */}</div>
-                <div>
-                    {/* Contact formulaire ou lien vers page avec un formulaire */}
-                </div>
-            </article>
+            <Thumb />
         </section>
     );
 };
