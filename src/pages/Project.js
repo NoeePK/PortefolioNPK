@@ -1,4 +1,3 @@
-// Description du projet
 // Comment j'ai surmonté des problèmes
 
 import React from "react";

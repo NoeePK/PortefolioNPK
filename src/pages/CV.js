@@ -14,7 +14,9 @@ const CV = () => {
                 {diplomas.map((diploma) => (
                     <div className="education" key={diploma.id}>
                         <h3>{diploma.title}</h3>
-                        <p>{diploma.date}</p>
+                        <p>
+                            {diploma.start} - {diploma.end}
+                        </p>
                         <a href={diploma.link}>{diploma.where}</a>
                         <p>{diploma.description}</p>
                     </div>

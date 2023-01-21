@@ -1,36 +1,46 @@
 [
     {
+        "id": "nh628s9",
         "title": "Formation Développeuse Web",
         "description": "",
-        "date": { "beginDate": "06.2022", "endDate": "02.2023" },
+        "start": "06.2022",
+        "end": "02.2023",
         "where": "OpenClassrooms",
         "link": "https://openclassrooms.com/fr/"
     },
     {
+        "id": "x2r857z",
         "title": "Formation Lecteur-correcteur",
         "description": "",
-        "date": { "beginDate": "10.2022", "endDate": "04.2023" },
+        "start": "10.2022",
+        "end": "04.2023",
         "where": "Ecole Française de Lecteur-Correcteur",
         "link": "https://eflc.fr/"
     },
     {
+        "id": "5w6r66a",
         "title": "Certificat 'Se mettre dans la peau d'un professionnel'",
         "description": "Parcours de formation pour 'présenter un projet professionnel inspiré de ses Passions et de ses Compétences Humaines'",
-        "date": { "beginDate": "04.2022", "endDate": "04.2022" },
+        "start": "04.2022",
+        "end": "04.2022",
         "where": "Réseau Etincelle",
         "link": "https://reseau-etincelle.com/"
     },
     {
+        "id": "q06go34",
         "title": "Langues Etrangères Appliquées",
         "description": "",
-        "date": { "beginDate": "09.2015", "endDate": "02.2018" },
+        "start": "09.2015",
+        "end": "02.2018",
         "where": "Université de Strasbourg",
         "link": "https://www.unistra.fr/"
     },
     {
+        "id": "j9d438l",
         "title": "Baccalauréat série littéraire",
         "description": "",
-        "date": { "beginDate": "09.2012", "endDate": "06.2015" },
+        "start": "09.2012",
+        "end": "06.2015",
         "where": "Lycée Alfred Kastler",
         "link": "https://lyc-kastler-guebwiller.monbureaunumerique.fr/"
     }
