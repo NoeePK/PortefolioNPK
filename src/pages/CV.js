@@ -1,7 +1,6 @@
 // Lien vers Linkedin
 
 import React from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import diplomas from "../datas/diploma.json";
 import works from "../datas/work.json";
 

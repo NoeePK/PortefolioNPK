@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import linkedin from "../assets/linkedin.svg";
+import github from "../assets/github.svg";
 
 const Footer = () => {
     return (
         <footer>
             <Link to="">
-                <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+                <img src={linkedin} />
                 <h3>linkedIn</h3>
             </Link>
             <Link to="">
-                <FontAwesomeIcon icon="fa-brands fa-square-github" />
+                <img src={github} />
                 <h3>github</h3>
             </Link>
         </footer>

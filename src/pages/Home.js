@@ -2,7 +2,12 @@ import React from "react";
 
 // Importer les composants
 import Thumb from "../components/Thumb";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import javascript from "../assets/square-js.svg";
+import react from "../assets/react.svg";
+import nodejs from "../assets/node-js.svg";
+import sass from "../assets/sass.svg";
+import html from "../assets/html.svg";
+import css from "../assets/css.svg";
 
 const Home = () => {
     return (
@@ -17,27 +22,27 @@ const Home = () => {
                 <div className="tools-wrap">
                     <ul className="tools-list">
                         <li>
-                            <FontAwesomeIcon icon="fa-brands fa-square-js" />
+                            <img src={javascript} />
                             <h3>Javascript</h3>
                         </li>
                         <li>
-                            <FontAwesomeIcon icon="fa-brands fa-react" />
+                            <img src={react} />
                             <h3>React</h3>
                         </li>
                         <li>
-                            <FontAwesomeIcon icon="fa-brands fa-node-js" />
+                            <img src={nodejs} />
                             <h3>Node.js</h3>
                         </li>
                         <li>
-                            <FontAwesomeIcon icon="fa-brands fa-sass" />
+                            <img src={sass} />
                             <h3>Sass</h3>
                         </li>
                         <li>
-                            <FontAwesomeIcon icon="fa-brands fa-html5" />
+                            <img src={html} />
                             <h3>HTML</h3>
                         </li>
                         <li>
-                            <FontAwesomeIcon icon="fa-brands fa-css3-alt" />
+                            <img src={css} />
                             <h3>CSS</h3>
                         </li>
                     </ul>

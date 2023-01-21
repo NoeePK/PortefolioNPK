@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import left from "../assets/circle-left-solid.svg";
+import right from "../assets/circle-right-solid.svg";
 
 const Carrousel = (props) => {
     const pictures = props.source;
@@ -16,10 +17,10 @@ const Carrousel = (props) => {
     return (
         <>
             <span className="arrow" onClick={previousSlide}>
-                <FontAwesomeIcon icon="fa-solid fa-circle-arrow-left" />
+                <img src={left} />
             </span>
             <span className="arrow" onClick={nextSlide}>
-                <FontAwesomeIcon icon="fa-solid fa-circle-arrow-right" />
+                <img src={right} />
             </span>
             <div className="carrousel">
                 {pictures.map((picture, index) => (
