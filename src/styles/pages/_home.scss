@@ -1,0 +1,17 @@
+.tools-list {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    background-color: $primary-dark;
+    padding-top: 1%;
+    list-style-type: none;
+}
+
+.thumbs-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
