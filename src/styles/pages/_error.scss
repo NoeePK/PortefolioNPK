@@ -1,0 +1,17 @@
+.error-wrap {
+    color: $primary-text;
+    text-align: center;
+    margin: 0 40rem;
+    padding-bottom: 15rem;
+    border: 2rem solid $primary;
+    background-color: white;
+    p {
+        font-weight: 800;
+        font-size: 14rem;
+        margin: 2%;
+    }
+
+    h1 {
+        font-weight: 300;
+    }
+}
