@@ -9,16 +9,23 @@ import sass from "../assets/sass.svg";
 import html from "../assets/html.svg";
 import css from "../assets/css.svg";
 
+import user from "../assets/user.svg";
+
 const Home = () => {
     return (
         <section className="main-wrap">
             <article className="bio-wrap">
-                <h2>Bio</h2>
-                <p>
-                    Manifeste sur ma vision du code/développement, ce que j'aime
-                    et recherche
-                </p>
-                <ul className="tools-list">
+                <div className="bio">
+                    <h2>Bio</h2>
+                    <p>
+                        Manifeste sur ma vision du code/développement, ce que
+                        j'aime et recherche
+                    </p>
+                </div>
+                <img src={user} alt="user"></img>
+            </article>
+            <aside>
+                <ul className="tools-wrap">
                     <li className="logo-style">
                         <img src={javascript} alt="Javascript" />
                         <h3>Javascript</h3>
@@ -44,7 +51,7 @@ const Home = () => {
                         <h3>CSS</h3>
                     </li>
                 </ul>
-            </article>
+            </aside>
             <div className="thumbs-wrap">
                 <Thumb />
             </div>

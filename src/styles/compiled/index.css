@@ -10,8 +10,9 @@
 }
 
 body {
+  color: #1b5f5d;
   font-size: 3rem;
-  background-color: rgba(56, 192, 176, 0.1882352941);
+  background-color: rgba(56, 192, 176, 0.1568627451);
 }
 
 img {
@@ -70,7 +71,28 @@ footer {
   color: #1b5f5d;
 }
 
-.tools-list {
+.bio-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 6rem 5%;
+}
+.bio-wrap img {
+  order: 0;
+  flex-basis: 40%;
+  filter: invert(1);
+  height: 20rem;
+  margin-left: 0%;
+}
+
+.bio {
+  order: 1;
+  flex-basis: 60%;
+  text-align: right;
+}
+
+.tools-wrap {
   display: flex;
   flex-direction: row;
   align-items: baseline;
