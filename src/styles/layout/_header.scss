@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: $primary-text;
+    padding: 0 4.5rem;
+    color: white;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+nav {
+    a {
+        color: white;
+        font-size: 3.5rem;
+        text-decoration: none;
+        margin: 0 2rem;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

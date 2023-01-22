@@ -12,7 +12,6 @@ import css from "../assets/css.svg";
 const Home = () => {
     return (
         <section className="main-wrap">
-            <h1>Hullo, je m'appelle Noée Pisano</h1>
             <article className="bio-wrap">
                 <h2>Bio</h2>
                 <p>
