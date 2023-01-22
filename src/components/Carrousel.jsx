@@ -17,10 +17,10 @@ const Carrousel = (props) => {
     return (
         <>
             <span className="arrow" onClick={previousSlide}>
-                <img src={left} />
+                <img src={left} alt="Précédent" />
             </span>
             <span className="arrow" onClick={nextSlide}>
-                <img src={right} />
+                <img src={right} alt="Suivant" />
             </span>
             <div className="carrousel">
                 {pictures.map((picture, index) => (

@@ -22,27 +22,27 @@ const Home = () => {
                 <div className="tools-wrap">
                     <ul className="tools-list">
                         <li>
-                            <img src={javascript} />
+                            <img src={javascript} alt="Javascript" />
                             <h3>Javascript</h3>
                         </li>
                         <li>
-                            <img src={react} />
+                            <img src={react} alt="React" />
                             <h3>React</h3>
                         </li>
                         <li>
-                            <img src={nodejs} />
+                            <img src={nodejs} alt="Node-js" />
                             <h3>Node.js</h3>
                         </li>
                         <li>
-                            <img src={sass} />
+                            <img src={sass} alt="Sass" />
                             <h3>Sass</h3>
                         </li>
                         <li>
-                            <img src={html} />
+                            <img src={html} alt="HTML" />
                             <h3>HTML</h3>
                         </li>
                         <li>
-                            <img src={css} />
+                            <img src={css} alt="CSS" />
                             <h3>CSS</h3>
                         </li>
                     </ul>

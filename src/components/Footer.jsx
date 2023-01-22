@@ -6,11 +6,11 @@ const Footer = () => {
     return (
         <footer>
             <Link to="">
-                <img src={linkedin} />
+                <img src={linkedin} alt="Page LinkedIn" />
                 <h3>linkedIn</h3>
             </Link>
             <Link to="">
-                <img src={github} />
+                <img src={github} alt="Page GitHub" />
                 <h3>github</h3>
             </Link>
         </footer>
