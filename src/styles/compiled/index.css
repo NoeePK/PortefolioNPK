@@ -12,7 +12,7 @@
 body {
   color: #1b5f5d;
   font-size: 3rem;
-  background-color: rgba(56, 192, 176, 0.1568627451);
+  background-color: #EEFCF9;
 }
 
 img {
@@ -36,6 +36,25 @@ img {
 }
 .logo-style:hover img {
   filter: opacity(0.7);
+}
+
+.thumb {
+  width: 80%;
+  margin: 1% auto;
+  background-color: #EEFCF9;
+  border: 1rem solid #1b5f5d;
+  border-radius: 10px;
+  color: #1b5f5d;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-cover {
+  flex-basis: 50%;
+  object-fit: cover;
+  background-color: #1b5f5d;
 }
 
 header {
@@ -105,7 +124,7 @@ footer {
 
 .thumbs-wrap {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   background-color: #38c0b0;
   margin: 0 auto;
   padding: 2%;

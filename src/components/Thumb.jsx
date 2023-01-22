@@ -7,20 +7,18 @@ export const Thumb = () => {
     return (
         <>
             {projects.map((project) => (
-                <div className="thumb">
-                    <Link
-                        className="to-project-link"
-                        to={`/Project/${project.id}`}
-                        key={project.id}>
-                        <img
-                            src={project.cover}
-                            className="project-cover"
-                            alt="Miniature"
-                        />
-                        <h2>{project.title}</h2>
-                    </Link>
+                <Link
+                    className="thumb"
+                    to={`/Project/${project.id}`}
+                    key={project.id}>
+                    <img
+                        src={project.cover}
+                        className="project-cover"
+                        alt={project.title}
+                    />
+                    <h2>{project.title}</h2>
                     <Tags name="tools-list" tags={project.tools} />
-                </div>
+                </Link>
             ))}
         </>
     );
