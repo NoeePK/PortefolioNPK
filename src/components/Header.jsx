@@ -7,8 +7,9 @@ const Header = () => {
             <h1>Noée Pisano</h1>
             <nav>
                 <Link to="/">Accueil</Link>
+                <Link to="/CV">Profile</Link>
                 <Link to="/Contact">Contact</Link>
-                <Link to="/CV">CV</Link>
+                
             </nav>
         </header>
     );

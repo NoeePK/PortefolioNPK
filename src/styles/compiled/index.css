@@ -100,14 +100,15 @@ footer {
   background-color: #1b5f5d;
   padding-top: 1%;
   list-style-type: none;
+  margin: 0;
 }
 
 .thumbs-wrap {
   display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #38c0b0;
+  margin: 0 auto;
+  padding: 2%;
 }
 
 .error-wrap {

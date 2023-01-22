@@ -28,12 +28,13 @@
     background-color: $primary-dark;
     padding-top: 1%;
     list-style-type: none;
+    margin: 0;
 }
 
 .thumbs-wrap {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: $primary;
+    margin: 0 auto;
+    padding: 2%;
 }
