@@ -13,11 +13,14 @@ export const Thumb = () => {
                     key={project.id}>
                     <img
                         src={project.cover}
-                        className="project-cover"
+                        className="thumb-cover"
                         alt={project.title}
                     />
-                    <h2>{project.title}</h2>
-                    <Tags name="tools-list" tags={project.tools} />
+                    <div className="thumb-text">
+                        <h2>{project.title}</h2>
+                        <p>{project.goal}</p>
+                        <Tags name="tags" tags={project.tools} />
+                    </div>
                 </Link>
             ))}
         </>

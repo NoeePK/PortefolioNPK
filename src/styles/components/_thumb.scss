@@ -8,11 +8,45 @@
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
 }
 
-.project-cover {
-    flex-basis: 50%;
+.thumb-cover {
+    width: 50%;
+    height: 100%;
     object-fit: cover;
     background-color: $primary-dark;
+    color: white;
+}
+
+.thumb-text {
+    flex-basis: 50%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:stretch;
+
+    h2,
+    p {
+        margin-left: 3%;
+        margin-top: 0;
+    }
+}
+
+.tags {
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    list-style-type: none;
+    background-color: $primary-dark;
+    margin: 0;
+    padding-left: .5rem;
+    cursor: default;
+
+    li {
+        padding: 1rem;
+        
+    }
 }

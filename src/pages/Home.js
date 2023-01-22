@@ -14,18 +14,22 @@ import user from "../assets/user.svg";
 const Home = () => {
     return (
         <section className="main-wrap">
-            <article className="bio-wrap">
+            <section className="bio-wrap">
                 <div className="bio">
                     <h2>Bio</h2>
                     <p>
                         Manifeste sur ma vision du code/développement, ce que
-                        j'aime et recherche
+                        j'aime et recherche. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
                     </p>
                 </div>
                 <img src={user} alt="user"></img>
-            </article>
-            <aside>
-                <ul className="tools-wrap">
+            </section>
+            <section className="tools-wrap">
+                <ul className="tools-list">
                     <li className="logo-style">
                         <img src={javascript} alt="Javascript" />
                         <h3>Javascript</h3>
@@ -51,10 +55,10 @@ const Home = () => {
                         <h3>CSS</h3>
                     </li>
                 </ul>
-            </aside>
-            <div className="thumbs-wrap">
+            </section>
+            <section className="thumbs-wrap">
                 <Thumb />
-            </div>
+            </section>
         </section>
     );
 };

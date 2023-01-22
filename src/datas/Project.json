@@ -2,7 +2,7 @@
     {
         "id": "k973j1b8z",
         "title": "ohmyfood",
-        "cover": "",
+        "cover": "https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "pictures": [""],
         "goal": "Dynamisez une page web avec des animations CSS",
         "description": "",
@@ -13,7 +13,7 @@
     {
         "id": "khp79i347",
         "title": "Kanap",
-        "cover": "",
+        "cover": "https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "pictures": [""],
         "goal": "Construisez un site e-commerce en JavaScript",
         "description": "",
@@ -24,7 +24,7 @@
     {
         "id": "38g18jjk1",
         "title": "Piiquante",
-        "cover": "",
+        "cover": "https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "pictures": [""],
         "goal": "Construisez une API sécurisée",
         "description": "",
@@ -35,7 +35,7 @@
     {
         "id": "74c01mo9p",
         "title": "Kasa",
-        "cover": "",
+        "cover": "https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "pictures": [""],
         "goal": "Créez une application web avec React",
         "description": "",
@@ -46,11 +46,11 @@
     {
         "id": "b1681qrj7",
         "title": "Groupomania",
-        "cover": "",
+        "cover": "https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "pictures": [""],
         "goal": "Créez un réseau social d’entreprise",
         "description": "",
-        "tags": ["", ""],
+        "tags": ["Frontend", "Backend", "Single Page Application", "Réseau social"],
         "tools": ["React", "React-router", "Node.js", "MongoDB", "Sass"],
         "link": "https://github.com/NoeePK/Groupomania"
     }
