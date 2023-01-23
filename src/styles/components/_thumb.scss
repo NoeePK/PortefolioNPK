@@ -1,14 +1,13 @@
 .thumb {
-    width: 80%;
+    width: 45%;
     margin: 1% auto;
-    background-color: $primary-light;
+    background-color: $primary-dark;
     border: 1rem solid $primary-dark;
     border-radius: 10px;
-    color: $primary-dark;
+    color: white;
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    
 }
 
 .thumb-cover {
@@ -16,7 +15,6 @@
     height: 100%;
     object-fit: cover;
     background-color: $primary-dark;
-    color: white;
 }
 
 .thumb-text {
@@ -25,28 +23,30 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items:stretch;
+    align-items: stretch;
+    text-align: right;
 
     h2,
     p {
-        margin-left: 3%;
+        padding-left: 4%;
         margin-top: 0;
     }
 }
 
 .tags {
-    color: white;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     flex-wrap: wrap;
     list-style-type: none;
-    background-color: $primary-dark;
+    background-color: $primary-light;
     margin: 0;
-    padding-left: .5rem;
+    padding-left: 0.5rem;
     cursor: default;
 
     li {
-        padding: 1rem;
-        
+        color: $primary-dark;
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
     }
 }

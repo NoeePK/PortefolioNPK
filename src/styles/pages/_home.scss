@@ -42,7 +42,9 @@
 
 .thumbs-wrap {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background-color: $primary;
     margin: 0 auto;
     padding: 2%;

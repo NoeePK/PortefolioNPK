@@ -39,12 +39,12 @@ img {
 }
 
 .thumb {
-  width: 80%;
+  width: 45%;
   margin: 1% auto;
-  background-color: #EEFCF9;
+  background-color: #1b5f5d;
   border: 1rem solid #1b5f5d;
   border-radius: 10px;
-  color: #1b5f5d;
+  color: white;
   text-decoration: none;
   display: flex;
   flex-direction: row;
@@ -55,7 +55,6 @@ img {
   height: 100%;
   object-fit: cover;
   background-color: #1b5f5d;
-  color: white;
 }
 
 .thumb-text {
@@ -65,26 +64,29 @@ img {
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
+  text-align: right;
 }
 .thumb-text h2,
 .thumb-text p {
-  margin-left: 3%;
+  padding-left: 4%;
   margin-top: 0;
 }
 
 .tags {
-  color: white;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   list-style-type: none;
-  background-color: #1b5f5d;
+  background-color: #EEFCF9;
   margin: 0;
   padding-left: 0.5rem;
   cursor: default;
 }
 .tags li {
-  padding: 1rem;
+  color: #1b5f5d;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 header {
@@ -157,7 +159,9 @@ footer {
 
 .thumbs-wrap {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
   background-color: #38c0b0;
   margin: 0 auto;
   padding: 2%;
