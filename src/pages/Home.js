@@ -29,7 +29,7 @@ const Home = () => {
                 <img src={user} alt="user"></img>
             </section>
             <section className="tools-wrap">
-                <ul className="tools-list">
+                <ul className="tags-list">
                     <li className="logo-style">
                         <img src={javascript} alt="Javascript" />
                         <h3>Javascript</h3>

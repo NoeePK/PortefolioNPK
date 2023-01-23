@@ -1,0 +1,28 @@
+.project-wrap {
+    margin-bottom: 6rem;
+}
+
+.carrousel-wrap {
+    width: 75%;
+    margin: 2% auto;
+    background-color: $primary-dark;
+    border: 1rem solid $primary-dark;
+    border-radius: 10px;
+    color: white;
+}
+
+.language-wrap {
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:stretch;
+
+    .tools-list, .tags-list {
+        background-color: $primary-dark;
+        margin-bottom: 2rem;
+        display: flex;
+        
+    }
+}

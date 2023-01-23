@@ -19,8 +19,9 @@ export const Thumb = () => {
                     <div className="thumb-text">
                         <h2>{project.title}</h2>
                         <p>{project.goal}</p>
-                        <Tags name="tags" tags={project.tools} />
+                        
                     </div>
+                    <Tags name="tags" tags={project.tools} />
                 </Link>
             ))}
         </>

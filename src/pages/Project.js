@@ -15,18 +15,19 @@ const Project = () => {
     if (!project) return <Error />;
 
     return (
-        <main>
-            <section className="carrousel-wrap" key={project.id}>
-                <h1>{project.title}</h1>
-                <h2>{project.goal}</h2>
+        <main className="project-wrap" key={project.id}>
+            <h1>{project.title}</h1>
+            <h2>{project.goal}</h2>
+            <section className="carrousel-wrap">
                 <Carrousel
                     source={project.pictures}
                     slides={project.pictures.length}
                 />
             </section>
             <section className="language-wrap">
-                <Tags name="tools-list" tags={project.tools} />
                 <Tags name="tags-list" tags={project.tags} />
+                <Tags name="tags-list" tags={project.tools} />
+                
             </section>
             <section project-description>{project.description}</section>
             <a href={project.link}>Voir sur GitHub</a>
