@@ -27,7 +27,7 @@
         "cover": "https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "pictures": ["https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"],
         "goal": "Construisez une API sécurisée",
-        "description": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae enim a ligula pulvinar consectetur facilisis at diam. Morbi congue elit urna, sed sollicitudin tellus tempor non. Morbi leo orci, sollicitudin id nisi ac, sagittis faucibus tellus. Aliquam vitae felis sit amet sem blandit condimentum non mattis massa. In consequat magna in magna consectetur hendrerit. Nulla ultricies purus sit amet erat laoreet commodo. Fusce quis nulla risus. Pellentesque et vulputate diam, sed efficitur arcu. Vestibulum nec augue id eros commodo tempor. Donec semper nunc in elit faucibus, at ullamcorper quam elementum. Quisque eu ultricies odio. Mauris finibus nulla ut leo gravida viverra. Mauris sit amet faucibus odio. Aliquam pulvinar maximus sapien, vitae feugiat nunc fringilla vitae. Suspendisse est ipsum, vulputate ut augue rhoncus, laoreet molestie libero. Vestibulum viverra elit ac nunc dictum lacinia.",
         "tags": ["Backend", "API REST", "Sécurité", "OWASP"],
         "tools": ["Javascript", "Node.js", "Express", "MongoDB"],
         "link": "https://github.com/NoeePK/PIIQUANTE"

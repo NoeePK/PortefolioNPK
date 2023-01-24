@@ -9,6 +9,11 @@ import Project from "./pages/Project";
 import CV from "./pages/CV";
 import Error from "./pages/Error";
 
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
+
 const App = () => {
     return (
         <div className="App">

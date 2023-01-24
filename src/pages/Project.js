@@ -18,6 +18,7 @@ const Project = () => {
         <main className="project-wrap" key={project.id}>
             <h1>{project.title}</h1>
             <h2>{project.goal}</h2>
+            <Tags name="tools-list" tags={project.tags} />
             <section className="carrousel-wrap">
                 <Carrousel
                     source={project.pictures}
@@ -25,9 +26,7 @@ const Project = () => {
                 />
             </section>
             <section className="language-wrap">
-                <Tags name="tags-list" tags={project.tags} />
                 <Tags name="tags-list" tags={project.tools} />
-                
             </section>
             <section project-description>{project.description}</section>
             <a href={project.link}>Voir sur GitHub</a>

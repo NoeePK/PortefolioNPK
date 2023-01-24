@@ -97,6 +97,14 @@ img {
   font-weight: 700;
 }
 
+.carrousel {
+  width: 100%;
+}
+.carrousel img {
+  object-fit: cover;
+  width: 100%;
+}
+
 header {
   display: flex;
   flex-direction: row;

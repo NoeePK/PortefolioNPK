@@ -1,3 +1,9 @@
 .carrousel {
-    width: 30rem;
+    width: 100%;
+    
+
+    img {
+        object-fit: cover;
+        width: 100%;
+    }
 }
