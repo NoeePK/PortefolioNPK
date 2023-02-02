@@ -5,7 +5,7 @@
         "cover": "https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "pictures": ["https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"],
         "goal": "Dynamisez une page web avec des animations CSS",
-        "description": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae enim a ligula pulvinar consectetur facilisis at diam. Morbi congue elit urna, sed sollicitudin tellus tempor non. Morbi leo orci, sollicitudin id nisi ac, sagittis faucibus tellus. Aliquam vitae felis sit amet sem blandit condimentum non mattis massa. In consequat magna in magna consectetur hendrerit. Nulla ultricies purus sit amet erat laoreet commodo. Fusce quis nulla risus. Pellentesque et vulputate diam, sed efficitur arcu. Vestibulum nec augue id eros commodo tempor. Donec semper nunc in elit faucibus, at ullamcorper quam elementum. Quisque eu ultricies odio. Mauris finibus nulla ut leo gravida viverra. Mauris sit amet faucibus odio. Aliquam pulvinar maximus sapien, vitae feugiat nunc fringilla vitae. Suspendisse est ipsum, vulputate ut augue rhoncus, laoreet molestie libero. Vestibulum viverra elit ac nunc dictum lacinia.",
         "tags": ["Frontend", "Mobile-first", "Animations CSS"],
         "tools": ["HTML", "CSS", "Sass"],
         "link": "https://github.com/NoeePK/Ohmyfood"
@@ -16,7 +16,7 @@
         "cover": "https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "pictures": ["https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"],
         "goal": "Construisez un site e-commerce en JavaScript",
-        "description": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae enim a ligula pulvinar consectetur facilisis at diam. Morbi congue elit urna, sed sollicitudin tellus tempor non. Morbi leo orci, sollicitudin id nisi ac, sagittis faucibus tellus. Aliquam vitae felis sit amet sem blandit condimentum non mattis massa. In consequat magna in magna consectetur hendrerit. Nulla ultricies purus sit amet erat laoreet commodo. Fusce quis nulla risus. Pellentesque et vulputate diam, sed efficitur arcu. Vestibulum nec augue id eros commodo tempor. Donec semper nunc in elit faucibus, at ullamcorper quam elementum. Quisque eu ultricies odio. Mauris finibus nulla ut leo gravida viverra. Mauris sit amet faucibus odio. Aliquam pulvinar maximus sapien, vitae feugiat nunc fringilla vitae. Suspendisse est ipsum, vulputate ut augue rhoncus, laoreet molestie libero. Vestibulum viverra elit ac nunc dictum lacinia.",
         "tags": ["Backend", "Contenu dynamique", "Gestion de panier"],
         "tools": ["Javascript", "API", "localStorage"],
         "link": "https://github.com/NoeePK/Kanap"
@@ -38,7 +38,7 @@
         "cover": "https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "pictures": ["https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"],
         "goal": "Créez une application web avec React",
-        "description": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae enim a ligula pulvinar consectetur facilisis at diam. Morbi congue elit urna, sed sollicitudin tellus tempor non. Morbi leo orci, sollicitudin id nisi ac, sagittis faucibus tellus. Aliquam vitae felis sit amet sem blandit condimentum non mattis massa. In consequat magna in magna consectetur hendrerit. Nulla ultricies purus sit amet erat laoreet commodo. Fusce quis nulla risus. Pellentesque et vulputate diam, sed efficitur arcu. Vestibulum nec augue id eros commodo tempor. Donec semper nunc in elit faucibus, at ullamcorper quam elementum. Quisque eu ultricies odio. Mauris finibus nulla ut leo gravida viverra. Mauris sit amet faucibus odio. Aliquam pulvinar maximus sapien, vitae feugiat nunc fringilla vitae. Suspendisse est ipsum, vulputate ut augue rhoncus, laoreet molestie libero. Vestibulum viverra elit ac nunc dictum lacinia.",
         "tags": ["Frontend", "Single Page Application"],
         "tools": ["React", "React-router", "Node.js"],
         "link": "https://github.com/NoeePK/Kasa"
@@ -49,7 +49,7 @@
         "cover": "https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "pictures": ["https://images.unsplash.com/photo-1533601017-dc61895e03c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"],
         "goal": "Créez un réseau social d’entreprise",
-        "description": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae enim a ligula pulvinar consectetur facilisis at diam. Morbi congue elit urna, sed sollicitudin tellus tempor non. Morbi leo orci, sollicitudin id nisi ac, sagittis faucibus tellus. Aliquam vitae felis sit amet sem blandit condimentum non mattis massa. In consequat magna in magna consectetur hendrerit. Nulla ultricies purus sit amet erat laoreet commodo. Fusce quis nulla risus. Pellentesque et vulputate diam, sed efficitur arcu. Vestibulum nec augue id eros commodo tempor. Donec semper nunc in elit faucibus, at ullamcorper quam elementum. Quisque eu ultricies odio. Mauris finibus nulla ut leo gravida viverra. Mauris sit amet faucibus odio. Aliquam pulvinar maximus sapien, vitae feugiat nunc fringilla vitae. Suspendisse est ipsum, vulputate ut augue rhoncus, laoreet molestie libero. Vestibulum viverra elit ac nunc dictum lacinia.",
         "tags": ["Frontend", "Backend", "Single Page Application", "Réseau social"],
         "tools": ["React", "React-router", "Node.js", "MongoDB", "Sass"],
         "link": "https://github.com/NoeePK/Groupomania"
